@@ -1,34 +1,87 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    padding: 40px 0px;
-    font-family: 'Fredoka', sans-serif;
+body {
+  padding: 40px 0px;
+  font-family: "Fredoka", sans-serif;
 }
 
-.center-content{
-    width: 75%;
-    margin: auto;
-    min-width: 1200px;
+.center-content {
+  width: 55%;
+  margin: auto;
+  min-width: 1200px;
 }
 
-header{
-    text-align: center;
-    margin-bottom: 48rem;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-h1{
-    color: rgb(229, 49, 112);
-    font-size: 48px;
-    margin-bottom: 16px;
+.left {
+  float: left;
 }
 
-h2{
-    color: #262626;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 50px;
+header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+h1 {
+  color: rgb(229, 49, 112);
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  color: #262626;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.box {
+  width: calc(100% / 3);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.card {
+  box-shadow: -6px 7px 5px #cecece;
+  background-color: rgb(15, 14, 23);
+}
+
+.card img {
+  margin-right: 20px;
+  max-width: 100px;
+}
+
+.card-data {
+  padding: 15px 0px;
+  height: 100px;
+}
+
+.card h3 {
+  font-weight: 600;
+}
+
+.card small {
+  display: block;
+  font-size: 16px;
+}
+
+.card a {
+  color: rgb(110, 203, 205);
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.card h3,
+.card small {
+  margin-bottom: 7px;
+  color: #fff;
 }
